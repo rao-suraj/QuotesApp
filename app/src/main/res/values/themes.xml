@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.QuotesApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#232770</item>
+        <item name="colorPrimaryVariant">#D7232770</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#BF3764</item>
+        <item name="colorSecondaryVariant">#D7BF3764</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor"  >?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+    </style>
+
+    <style name="Theme.QuotesApp.NoActionBarAndStatusBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#232770</item>
+        <item name="colorPrimaryVariant">#D7232770</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#BF3764</item>
+        <item name="colorSecondaryVariant">#D7BF3764</item>
+        <item name="colorOnSecondary">#F7F2F2</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor"  >?attr/colorPrimaryVariant</item>
+
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+</resources>
